@@ -1,0 +1,151 @@
+body {
+    background-image: url('layered-peaks-haikei.svg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0; /* Ajout pour enlever les marges par défaut */
+    padding: 0; /* Ajout pour enlever les marges par défaut */
+    overflow-x: hidden; /* Empêche le défilement horizontal */
+}
+
+.rectangle {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px; /* Ajustez la hauteur selon vos besoins */
+  background-color: rgb(16, 2, 82);
+}
+
+.github-img{
+    width: 65px; /* Définir la largeur de l'image */
+    height: auto; /* Permet à la hauteur de s'ajuster automatiquement en fonction de la largeur */
+    border-radius: 10px; /* Ajouter une bordure arrondie */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajouter une ombre */
+    position: relative;
+    top:  850px;
+    left: 4%;
+}
+
+.github-text {
+  font-size: 22px; /* Taille de la police */
+  color: #ffffff; /* Couleur du texte */
+  font-weight: bold; /* Gras */
+  font-family: 'Protest Strike', sans-serif;
+  position: relative;
+  top:  779px;
+  left: 9%;
+  text-decoration: underline; /* Soulignement du lien */
+  color: rgb(255, 255, 255); /* Couleur du lien */
+  cursor: pointer; /* Curseur en forme de main au survol */
+ 
+}
+
+.linkdin-img{
+  width: 65px; /* Définir la largeur de l'image */
+  height: auto; /* Permet à la hauteur de s'ajuster automatiquement en fonction de la largeur */
+  border-radius: 10px; /* Ajouter une bordure arrondie */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajouter une ombre */
+  position: relative;
+  top:  713px;
+  left: 26%;
+}
+
+.linkdin-text {
+font-size: 22px; /* Taille de la police */
+color: #692929; /* Couleur du texte */
+font-weight: bold; /* Gras */
+font-family: 'Protest Strike', sans-serif;
+position: relative;
+top:  640px;
+left: 31%;
+text-decoration: underline; /* Soulignement du lien */
+color: rgb(255, 255, 255); /* Couleur du lien */
+cursor: pointer; /* Curseur en forme de main au survol */
+
+}
+
+.gmail-img{
+  width: 65px; /* Définir la largeur de l'image */
+  height: auto; /* Permet à la hauteur de s'ajuster automatiquement en fonction de la largeur */
+  border-radius: 10px; /* Ajouter une bordure arrondie */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajouter une ombre */
+  position: relative;
+  top:  576px;
+  left: 47%;
+}
+
+.gmail-text {
+font-size: 22px; /* Taille de la police */
+color: #ffffff; /* Couleur du texte */
+font-weight: bold; /* Gras */
+font-family: 'Protest Strike', sans-serif;
+position: relative;
+top:  502px;
+left: 52%;
+text-decoration: underline; /* Soulignement du lien */
+color: rgb(255, 255, 255); /* Couleur du lien */
+cursor: pointer; /* Curseur en forme de main au survol */
+
+}
+.telephone-img{
+  width: 65px; /* Définir la largeur de l'image */
+  height: auto; /* Permet à la hauteur de s'ajuster automatiquement en fonction de la largeur */
+  border-radius: 10px; /* Ajouter une bordure arrondie */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Ajouter une ombre */
+  position: relative;
+  top:  435px;
+  left: 79%;
+}
+
+.telephone-text {
+font-size: 22px; /* Taille de la police */
+color: #ffffff; /* Couleur du texte */
+font-weight: bold; /* Gras */
+font-family: 'Protest Strike', sans-serif;
+position: relative;
+top:  360px;
+left: 84%;
+text-decoration: underline; /* Soulignement du lien */
+color: rgb(255, 255, 255); /* Couleur du lien */
+cursor: pointer; /* Curseur en forme de main au survol */
+
+}
+
+.button-accueil {
+  position: fixed;
+  top: 0;
+  right: 100px; /* Ajustez la position horizontale selon vos besoins */
+  margin: 10px;
+  z-index: 999;
+  background-color: #10ebf3; /* Couleur de fond */
+  color: rgb(0, 0, 0); /* Couleur du texte */
+  padding: 10px 20px; /* Espacement à l'intérieur du bouton */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur pointeur */
+}
+/* Styles de base */
+/* Ajoutez vos styles de base ici */
+
+/* Media queries pour les écrans de petite taille (par exemple, les smartphones) */
+@media only screen and (max-width: 600px) {
+  .rectangle {
+      height: 100px; /* Réduisez la hauteur du rectangle */
+  }
+  .github-img, .linkdin-img, .gmail-img {
+      width: 40px; /* Réduisez la taille des images */
+  }
+  .github-text, .linkdin-text, .gmail-text {
+      font-size: 16px; /* Réduisez la taille du texte */
+  }
+}
+
+/* Media queries pour les écrans de taille moyenne (par exemple, les tablettes) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Ajoutez des ajustements de style pour les écrans de taille moyenne ici */
+}
+
+/* Media queries pour les grands écrans (par exemple, les ordinateurs de bureau) */
+@media only screen and (min-width: 1025px) {
+  /* Ajoutez des ajustements de style pour les grands écrans ici */
+}

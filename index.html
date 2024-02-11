@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Nom">
+        <p>Florian</p>
+    </div>
+    
+    <button class="button-accueil" onclick="scrollToTop()">Accueil</button>
+   
+    <button class="button-projets" onclick="scrollToTarget('#projet')">Projets</button>
+    
+    <button class="button-contact" onclick="redirectToContact()">Contact</button>
+
+    <div class="imgdev" id="dev">
+        <img src='dev.jpg'/>
+    </div>
+    <p><span class="bien">Bienvenue sur mon portfolio ! Je suis</span> <span class="je">Chatain Florian</span><br><span class="texte"> étudiant en développement informatique au CESI.<br> Passionné par la programmation et l'innovation,<br> je vous invite à découvrir mes projets et compétences. <br>Ensemble, dans l'humilité la plus totale, <br>révolutionnons le monde du développement ! </span></p>
+    
+
+
+    <p><span class="mes">Mes</span> <span class="projets">Projets</span></p>
+
+
+
+
+    <div class="wrap" id="projet">
+        <div class="tile"> 
+            <a href="https://github.com/Zedi13/Sonde-m-t-o" target="_blank"> <!-- Insérez le lien et spécifiez "_blank" pour ouvrir dans une nouvelle fenêtre -->
+                <img src='meteo.jpg'/>
+                <div class="text">
+                    <h1>Projet Sonde méteo</h1>
+                    <h2 class="animate-text">Récupération des données d'une sondre méteo</h2>
+                    <p class="animate-text">Notre projet consistait à afficher les informations météorologiques d'une sonde sur un site web en utilisant une API pour récupérer les données en temps réel. Cette intégration nous a permis d'afficher les données météo actualisées de manière dynamique, offrant aux utilisateurs un accès rapide et précis aux prévisions météorologiques. </p>
+                    <div class="dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+
+    <div class="tile"> 
+    <img src='pendu.png'/>
+        <div class="text">
+        <h1>Projet Pendu </h1>
+        <h2 class="animate-text">Création jeux du pendu en C</h2>
+        <p class="animate-text">Apprentissage des bases du languages C pour la création du jeu du pendu </p>
+    <div class="dots">
+          <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        </div>
+    </div>
+        
+    <div class="tile"> 
+    <img src='inux.png'/>
+        <div class="text">
+        <h1>Projet Infrastructure</h1>
+        <h2 class="animate-text">Création d'un serveur web sous l'inux</h2>
+        <p class="animate-text">Utilisation des commandes de bases pour crée un serveur WEB et y mettre un site Wordpress </p>
+      <div class="dots">
+          <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        </div>
+    </div>
+    </div>
+    <div class="wrap">
+        <div class="tile"> 
+            <img src='badge.jpg'/>
+            <div class="text">
+            <h1>Projet Badgeuse</h1>
+            <h2 class="animate-text">Création d'un "logiciel" de badgeuse</h2>
+            <p class="animate-text">Nous avons créé un site de badgeage avec un badge connecté à un Raspberry Pi. Des scripts Python assurent la gestion des badges et l'identification des utilisateurs. </p>
+        <div class="dots">
+             <span></span>
+            <span></span>
+            <span></span>
+             </div>
+             </div>
+         </div>
+    
+         <div class="tile"> 
+            <a href="https://github.com/Zedi13/SiteBDD" target="_blank">
+                <img src='site.png'/>
+                <div class="text">
+                    <h1>Projet site matching</h1>
+                    <h2 class="animate-text">Création d'un site avec une base de données </h2>
+                    <p class="animate-text">Nous avons développé un site web avec une base de données intégrée permettant des recherches avancées. </p>
+                    <div class="dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
